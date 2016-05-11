@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Operation">
+    <Position X="3.75" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEECAAAAAAAA=</HashCode>
+      <FileName>factory.cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OperationAdd">
+    <Position X="2.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAA=</HashCode>
+      <FileName>factory.cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OperationSub">
+    <Position X="5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAA=</HashCode>
+      <FileName>factory.cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OperationMul">
+    <Position X="7.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAA=</HashCode>
+      <FileName>factory.cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OperationDiv">
+    <Position X="0.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAA=</HashCode>
+      <FileName>factory.cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IFactory">
+    <Position X="3.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAA=</HashCode>
+      <FileName>factory.cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AddFactory">
+    <Position X="5" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAA=</HashCode>
+      <FileName>factory.cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SubFactory">
+    <Position X="7.25" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAA=</HashCode>
+      <FileName>factory.cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MulFactory">
+    <Position X="0.5" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAA=</HashCode>
+      <FileName>factory.cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DivFactory">
+    <Position X="2.75" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAA=</HashCode>
+      <FileName>factory.cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="微软雅黑" Size="9" />
+</ClassDiagram>

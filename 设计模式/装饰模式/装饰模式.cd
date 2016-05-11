@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Person">
+    <Position X="2.25" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAIAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Decorator.cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Finery">
+    <Position X="5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAEABAAAAAAAAAgAAA=</HashCode>
+      <FileName>Decorator.cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TShirts">
+    <Position X="7.25" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Decorator.cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BigTrouser">
+    <Position X="0.5" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Decorator.cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Shoes">
+    <Position X="5" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Decorator.cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Shuit">
+    <Position X="9.5" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Decorator.cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tie">
+    <Position X="2.75" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Decorator.cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="微软雅黑" Size="9" />
+</ClassDiagram>

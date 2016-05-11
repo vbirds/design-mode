@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<logicalClassDesignerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" dslVersion="1.0.0.0" Id="9e9dccfe-b3ed-4afb-bfcc-75c1854eefdd" name="代理模式" linkedPackageId="f219f6d5-8616-4651-9e05-382d5bc9cd53" xmlns="http://schemas.microsoft.com/dsltools/LogicalClassDesigner">
+  <profileInstances>
+    <packageHasProfileInstances Id="f1f32b01-9f46-4bfa-9c99-b7e1192d2a95">
+      <profileInstance Id="ea9a812b-b978-4d09-a345-4ca1b206ac14" name="StandardProfileL2">
+        <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+      </profileInstance>
+      <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="f61cf582-ab6d-4d6c-92ed-4cf918a12303">
+      <profileInstance Id="94397b24-4758-4058-99e8-74fb5a3d0fe4" name="StandardProfileL3">
+        <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+      </profileInstance>
+      <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="85184555-ba30-4fa4-945f-ca3d2ce1a740" name="Image" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="6b721efb-c7c8-4b1e-94f3-9723bd1ecec1" />
+        <ownedAttributesInternal>
+          <property Id="114577b9-ef0d-4dcc-9ac2-248f328cf505" name="m_Image" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="454494ea-2f8b-4458-a821-aaa8a20278e1" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="1627a808-16e3-4ba9-a283-7851e35d4b70" LastKnownName="string" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation Id="637adea3-0479-44d2-9489-15c9e10884df" name="Image" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="d1d999d5-7f2a-42cf-8e6e-9348d0c87bf9" />
+          </operation>
+          <operation Id="d9fe363a-3b26-4de1-a23d-09d11bc84818" name="&lt;&lt;virtual&gt;&gt; ~Image" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="6b769452-0075-4edd-ad1a-274a3bb965b9" />
+          </operation>
+          <operation Id="de7c992c-9f9e-445a-b61d-3f32c03390e4" name="&lt;&lt;virtual&gt;&gt; Show" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="cd592cb8-8c4b-47b5-97ba-b7635bc091cd" />
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <packageHasNamedElement>
+      <referencedType Id="1627a808-16e3-4ba9-a283-7851e35d4b70" name="string" isAbstract="false" isLeaf="false" cachedFullName="string">
+        <elementDefinition Id="ea873a09-3e13-40b7-a36a-b62f2ad42ba3" />
+      </referencedType>
+    </packageHasNamedElement>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="30026d49-1988-4b1b-a58f-6ca52dd5610a" name="BigImage" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="c79e6b1d-324a-41b5-827d-45bac956cc69" />
+        <generalsInternal>
+          <generalization Id="c22ab6d0-4ef2-4aab-8316-a18b07bf60ce" isSubstitutable="false">
+            <classMoniker Id="85184555-ba30-4fa4-945f-ca3d2ce1a740" LastKnownName="Image" />
+            <elementDefinition Id="06b4832b-ff52-4e06-9fec-dc72ac2db31c" />
+          </generalization>
+        </generalsInternal>
+        <ownedOperationsInternal>
+          <operation Id="654a66d5-1506-467a-8675-7bf07a971cf0" name="BigImage" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="86e78f75-8714-4fcb-bff7-de765e0fa9c9" />
+          </operation>
+          <operation Id="8db557fa-4f52-431a-b806-9622129930bb" name="BigImage" visibility="Package" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="a88800fb-30e3-4824-a69c-6846e5adef28" />
+          </operation>
+          <operation Id="103dbc3b-e148-4e71-bce5-cf70513ee23a" name="Show" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="a6c5d92f-9ea6-4c41-bbc6-99d3f8f3dc01" />
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+  </packagedElements>
+  <package Id="f219f6d5-8616-4651-9e05-382d5bc9cd53" name="ModelingProject1">
+    <elementDefinition Id="0f5936d1-fe75-44ec-8182-d723e31aa230" />
+  </package>
+</logicalClassDesignerModel>
